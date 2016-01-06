@@ -1,0 +1,208 @@
+		body { 
+			margin: 0; 
+			padding: 0;
+			/*pointer-events: none;
+			-moz-pointer-events: none;
+			-webkit-pointer-events: none;*/
+		}
+		#header { 
+			background-color: #000;
+			opacity: 0.6;
+	  	    filter:alpha(opacity=60); /* For IE8 and earlier */	
+	  	    display: block;	
+	  	    width: 100%; 
+			position:fixed;
+			top: 0;
+			vertical-align: middle;
+		}
+
+		#footer {
+			position: fixed;
+			-moz-position: fixed;
+			top: 600px;
+			-moz-top: 600px;
+			background-color: #000;
+			opacity: 0.6;
+	  	    filter:alpha(opacity=60); /* For IE8 and earlier */	
+	  	    display: block;	
+	  	    width: 100%;
+	  	    vertical-align: middle;
+	  	    clear: both;
+		}
+
+		#footer > h6 { line-height: 150%; }
+		
+		footer { 
+			display: block;
+			width: 100%;
+			clear: both;
+		}
+
+		h2, a { 
+			font-family: Arial; 
+			color: #fff; 
+			font-weight: lighter;			
+		}
+
+		h6 { font-size: 18px; }
+
+		h2, h6, h4 { 
+			text-align: center; 
+			line-height: 150%;
+			margin: 0;
+		}
+
+		h5 { 
+			font-size: 20px;
+			margin: 0;
+			text-align: left;
+			line-height: 150%;	
+		}
+		a { 
+			display: inline-block;
+			text-decoration: none; 
+		}
+
+		h3, h4 { 
+			font-size: 25px;
+			font-weight: lighter;
+			width: 70%;
+			text-align: center;
+		}
+
+		h3, h4, h5 { 
+			color: #696969;		
+			margin: auto;
+			font-style: italic;				
+		}
+
+		.bg {
+			display: inline-block;
+			background-image: url('../images/wellington.jpg');
+			background-repeat: no-repeat;
+			background-position: center top;
+			background-attachment: scroll;
+			background-origin: content-box;
+			width: 100%;	
+			margin: 0;
+			height: 600px;		
+			display: inline-block;	
+		}
+
+		.contact {
+			padding-top: 20px;
+		}
+
+		.services, .about { 
+			padding-top: 40px;
+			padding-bottom: 50px; 
+		 	background-color: #f5f5dc;
+		}
+
+		li { list-style: none;}
+		p { 
+			font-family: Arial;
+			color: #696969;
+		}
+
+/*SLIDER*/
+		#cssSlider {
+		  	width: 900px;
+			height: 550px;
+			overflow: hidden;
+  		    box-shadow: 5px 5px 5px #888888;
+  		    float: left;
+			margin: 20px 20px 30px 20px;
+		}
+
+		#sliderImages {
+			width : 4500px;
+			height: 600px;
+			overflow: hidden;
+			
+			/* animation duration: 16s : 5x ~3s display image + 5x ~0.2s slide */
+			animation: slide 16s infinite;
+			-moz-animation: slide 16s infinite;
+			-webkit-animation: slide 16s infinite;
+			-o-animation: slide 16s infinite;
+		}
+
+		#sliderImages img {
+			float: left;
+		}
+
+		@keyframes slide{
+			0%{margin-left: 0px;}
+			17%{margin-left: 0px;}
+			20%{margin-left: -900px;}
+			37%{margin-left: -900px;}
+			40%{margin-left: -1800px;}
+			57%{margin-left: -1800px;}
+			60%{margin-left: -2700px;}
+			77%{margin-left: -2700px;}
+			80%{margin-left: -3600px;}
+			97%{margin-left: -3600px;}
+			100%{margin-left: -3600px;}
+		}
+
+		@-moz-keyframes slide{
+			0%{margin-left: 0px;}
+			17%{margin-left: 0px;}
+			20%{margin-left: -900px;}
+			37%{margin-left: -900px;}
+			40%{margin-left: -1800px;}
+			57%{margin-left: -1800px;}
+			60%{margin-left: -2700px;}
+			77%{margin-left: -2700px;}
+			80%{margin-left: -3600px;}
+			100%{margin-left: -3600px;}
+		}
+
+		@-webkit-keyframes slide{
+			0%{margin-left: 0px;}
+			17%{margin-left: 0px;}
+			20%{margin-left: -900px;}
+			37%{margin-left: -900px;}
+			40%{margin-left: -1800px;}
+			57%{margin-left: -1800px;}
+			60%{margin-left: -2700px;}
+			77%{margin-left: -2700px;}
+			80%{margin-left: -3600px;}
+			100%{margin-left: -3600px;}
+		}
+
+		@-o-keyframes slide{
+			0%{margin-left: 0px;}
+			17%{margin-left: 0px;}
+			20%{margin-left: -900px;}
+			37%{margin-left: -900px;}
+			40%{margin-left: -1800px;}
+			57%{margin-left: -1800px;}
+			60%{margin-left: -2700px;}
+			77%{margin-left: -2700px;}
+			80%{margin-left: -3600px;}
+			100%{margin-left: -3600px;}
+		}		
+
+		figure {
+			background-color: #fff;
+			display: inline-block;
+			margin: 5px 5px;
+			width: 24%;
+		   box-shadow: 3px 5px 3px #888888;
+		}
+
+		figure > img {
+			width: 100%;
+		}
+
+		figcaption > h4 { 
+			text-align: center;
+			font-size: 25px;
+			color: #696969; 
+			font-weight: lighter;
+			font-style: italic;	
+			margin: 0;
+			line-height: 150%;
+		}
+		a.contact { color: #000; }
