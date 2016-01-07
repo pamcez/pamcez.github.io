@@ -36,10 +36,11 @@
       margin-bottom: 0;
       background-color: #181818 !important;
       z-index: 9999;
-      font-size: 12px !important;
+      border:0;
+      font-size: 14px !important;
       line-height: 1.42857143 !important;
       letter-spacing: 4px;
-
+      border-radius: 0;
       font-family: Montserrat, sans-serif;
   }
   .navbar li a, .navbar .navbar-brand {
@@ -50,11 +51,11 @@
       background-color: #fff !important;
   }
   .navbar-default .navbar-toggle {
+      border-color: transparent;
       color: #fff !important;
   }
 
  .jumbotron {
-      /*background-color: #0f001a !important;*/
       background: url(../images/jumbo.jpg) no-repeat fixed center;
       background-size: cover;
       color: #fff;
@@ -86,34 +87,28 @@
  
 
   #section1 {
-    padding-top:50px;
-    height:550px;
+    padding-top:5em;
+    padding-bottom: 10em;
     color: #fff;
     background-color: #555;
     text-align: center;
    }
   #services {
-    padding-top:50px;
-    height:550px;
+    padding-top:5em;
+    padding-bottom: 10em;
     background-color: #fff;}
   #portfolio {
-    padding-top:50px;
-    height:550px;    
+    padding-top:5em;
+    padding-bottom: 10em;
     background-color: #474e5d;}
-  #contact {
-    padding-top:50px;
-    height:550px;
-    color: #333;
-    background-color: #fff;
-    width: 80%;
-    margin: 0 auto;
-  }
   #section41 {
-    padding-top:50px;height:550px;
+    padding-top:5em;
+    padding-bottom: 10em;
     color: #fff; 
     background-color: #00bcd4;}
   #section42 {
-    padding-top:50px;height:550px;
+    padding-top:5em;
+    padding-bottom: 10em;
     color: #fff; 
     background-color: #009688;}
 
@@ -123,3 +118,5 @@
     footer ul li{
       list-style: none; 
     }
+
+    
