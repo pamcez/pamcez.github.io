@@ -234,5 +234,26 @@
       list-style: none; 
     }
 
-    
+.up-arrow { 
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  display: block;
+  height: 50px;
+  width: 50px;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  color: #333;
+  background-color: #c0c0c0;
+  opacity: 0.5;
+  -webkit-transition: all .2s linear;
+ }
+
+ .glyphicon { 
+  font-size: 3em;
+  font-weight: 300;
+  font-size: 2em;
+}    
 
