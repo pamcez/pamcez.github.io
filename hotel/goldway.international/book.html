@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book Online | Goldway</title>
+	<!-- Foundation framework -->
+	<!-- META TAGS -->
+	<meta charrset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">		
+	<!-- STYLES -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.css">
+  	<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	<!-- SCRIPTS -->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/foundation.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+	<script>
+		$(document).ready(function() {
+		    $(document).foundation();
+		})
+	</script>
+
+</head>
+<body>
+
+<!-- NAVIGATION -->
+
+<nav class="top-bar" data-topbar role="navigation">
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="index.html">Goldway</a></h1>
+    </li>
+    <li class="has-form">
+      <div class="row collapse">
+        <div class="large-8 show-for-xlarge-up columns">
+          <input type="text" placeholder="Find Stuff">
+        </div>
+        <ul class="inline-list">     
+            
+            <a href="#" class="search-icon">
+            <li class="search-field"><i class="fi-magnifying-glass"></i></li></a>
+              <form>
+                <div class="row collapse">
+                  <div class="small-12 columns">
+                    <input type="text" class="dream-search" placeholder="Search">
+                  </div>
+                </div>
+              </form>
+        </ul>
+      </div>
+    </li>
+     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li><a href="index.html">Home</a></li>
+      <li class="has-dropdown">
+        <a href="#">Menu</a>
+        <ul class="dropdown">
+          <li><a href="rooms.html">Accomodation</a></li>
+          <li><a href="#">Facilities</a></li>
+          <li><a href="#">Locations</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <!-- Left Nav Section -->
+    <ul class="left">
+      
+    </ul>
+  </section>
+</nav>
+
+<!-- BOOKING STEPS -->
+
+<div class="row">
+	<ul class="tabs" data-tab>
+	  <li class="tab-title active"><a href="#bookingForm">1. Form</a></li>
+	  <li class="tab-title"><a href="#">2. Payment</a></li>
+	</ul>	
+</div>
+
+<div class="tabs-content">
+  <div class="content active" id="bookingForm">
+    <fieldset class="medium-6 large-4 columns">
+    <h3 class="text-gold small-text-left hide">Reservation</h3>	
+	    <div id="page">
+			<form action="" method="post" enctype="text/plain">
+			<h3 class="text-gold small-text-center">Reservation Summary</h3>
+			<div class="row">
+				<div class="medium-6 columns">
+					<label> Check-In
+					<input type="date" name="checkIn" max="2017-01-31" required>	</label>
+				</div>
+				<div class="medium-6 columns">
+					<label> Check-Out
+					<input type="date" name="checkOut" max="2017-01-31" required> </label>
+				</div>			
+			</div>
+			<div class="row">
+			  <div class="medium-6 columns">
+			     <label>Room Type
+			       <select>
+			         <option value="standard">Standard Room</option>
+			         <option value="superior">Superior Room</option>
+			         <option value="penthouse">Penthouse Suite</option>
+			       </select>
+			     </label>
+			   </div>
+			  <div class="medium-3 columns">
+			     <label>Adult
+			       <select>
+			         <option value="1">1</option>
+			         <option value="2">2</option>
+			         <option value="3">3</option>
+			         <option value="4">4</option>
+			         <option value="5">5</option>
+			       </select>
+			     </label>
+			   </div>
+			     <div class="medium-3 columns">
+			     <label>Child
+			       <select>
+			         <option value="1">1</option>
+			         <option value="2">2</option>
+			         <option value="3">3</option>
+			       </select>
+			     </label>
+			   </div>
+			   <div class="medium-4 columns">
+			   	
+			   </div>
+			</div>
+
+			  <div class="row">
+			    <div class="medium-12 columns">
+			      <label>First Name
+			        <input type="text" placeholder="First Name" required/>
+			      </label>
+			    </div>
+			  </div>
+			  <div class="row">
+			  	<div class="medium-12 columns">
+			      <label>Last Name
+			        <input type="text" placeholder="Last Name" required/>
+			      </label>
+			    </div>
+			  </div>
+			  <div class="row">
+			    <div class="medium-12 columns">
+			      <label>Email
+			        <input type="text" placeholder="Email" required/>
+			      </label>
+			    </div>
+
+			  </div>
+			  <div class="row">
+			  	<div class="medium-12 columns">
+			      <label>Address
+			        <input type="text" placeholder="Address" required/>
+			      </label>
+			    </div> 	
+			  </div>
+			  <div class="row">
+				<div class="medium-6 large-8 columns">
+					<sub>NOTE:Max 2 adults and 1 child per room.</sub>
+			 	     <label><input id="checkbox2" type="checkbox"><a href="">  I agree to the terms and Conditions</a></label>
+				</div>
+				<br/>
+			</div>
+		<div class="row">
+            <div class="medium-6 submitBtn">
+              <input type="submit" class="button success">
+              <a href="#page" id="submit"></a>
+        	</div>
+        </div>  
+			</form>
+		</div>	 
+	</fieldset> 
+		<div class="row">
+			<div class="columns medium-6 large-8">
+				<!-- CALENDAR -->
+				<iframe src="http://localendar.com/public/cepam?style=M4&show_past=N" height=800 width=700 marginheight=0 marginwidth=0 scrolling=no frameborder=0 border=0></iframe>
+
+			</div>
+		</div>
+  </div> <!-- END OF CONTENT -->
+	  <div class="content" id="payment">
+	    <h3 class="text-gold small-text-center">Payment Details</h3>
+	    <p></p>
+	  </div>
+</div>
+
+</body>
+</html>
