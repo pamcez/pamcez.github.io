@@ -56,15 +56,6 @@ border-bottom-right-radius: 7px;
         height: 1.85rem; } 
 }
 
-.hero {
-	width: 100%;
-	height: 500px;
-	background-image: url(../images/luxury.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover; 
-}
-
 .margin-top { margin-top: 2em;}
 
 
@@ -142,13 +133,12 @@ border-bottom-right-radius: 7px;
   font-size: 1.25rem; }
   .logo i {
     margin-right: 0.5rem; }
-SCSS
 
 
 .hero {
-  background: url('http://www.banksy-wallpaper.com/wallpapers/800x600/10-i-am-father.jpg') no-repeat center center;
+  background: url(../images/luxury.jpg) no-repeat center center;
 	background-size: cover;
-  height: 50vh;
+  height: 50%;
   overflow: hidden;
   h1, h2 {
     color: #fff;
