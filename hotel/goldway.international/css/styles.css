@@ -1,5 +1,7 @@
 .text-gold { color: #A97D53; }
 
+.text-price { color:#ff0000;}
+
 .gold { padding: 1rem 2rem 1.0625rem 2rem; }
 .gold, .gold-sm { 
 -webkit-appearance: none;
