@@ -74,37 +74,52 @@
 </nav>
 
 <section class="hero">
-	
+	 <div class="row intro">
+      <div class="small-centered medium-uncentered medium-6 large-7 columns">
+          
+      </div>
+  </div>
 </section>
 
 <div class="row margin-top">
-	 <div class="small-12 columns">
-	 	<form method="post" action="#" id="signinForm">
-	 	<div class="row">
-	 		<div class="medium-3 columns">  
-	 			<label>Check-in</label>
-		 		<input type="date" name="checkIn" max="2017-01-31" required>
-	 		</div>
-	 	
-		 	<div class="medium-3 columns">
-		 		<label>Check-out</label>
-				<input type="date" name="checkOut" max="2016-12-31" required>
-		 	</div>	
-		 	<div class="medium-3 columns">
-		 		<label> Guests</label>
-		 		<select name="guests">
-		 			<option value="1">One</option>
-		 			<option value="2">Two</option>
-		 		</select>	
-		 	</div>
-			<div class="medium-3 columns">
-				<button type="submit" class="gold">Check</button>  	
-			</div>	
-	 	</form>
-	 </div>
-	 	
-	 </div>		
+  <div class="small-12 columns">
+    <form method="post" action="#" id="signinForm">
+      <div class="row">
+        <div class="medium-3 columns">
+          <label>Check-in</label>
+          <input id="fields" type="date" name="checkIn" max="2017-01-31" required>
+        </div>
+
+        <div class="medium-3 columns">
+          <label>Check-out</label>
+          <input id="fields" type="date" name="checkOut" max="2016-12-31" required>
+        </div>
+        <div class="medium-3 columns">
+          <label> Guests</label>
+          <select name="guests" id="fields">
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+            <option value="4">Four</option>
+          </select>
+        </div>
+    </form>
+      <div class="medium-3 columns">
+          <button type="button" class="button" data-reveal-id="calModal">Check</button>
+      </div>
+    </div>
+
+  </div>
 </div>
+
+<!-- The Modal Content -->
+<div id="calModal" class="reveal-modal" data-reveal>
+    <a href="book.html" class="button success text-center" target="blank">Book Now</a>
+  <iframe class="show-for-large-up" src="http://localendar.com/public/cepam?style=M4&show_past=N" height=800 width=700 marginheight=0 marginwidth=0 scrolling=no frameborder=0 border=0></iframe>
+  <br/>
+
+  <a class="close-reveal-modal">&times;</a>
+</div>  
 <hr/>
 
 <div class="row">
