@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html manifest="/cache.manifest"> <!-- allow browser to save images to access offline -->
+<head>
+	<title>IOS Projects</title>
+	<script type="text/javascript">
+		 var isiPhone = navigator.userAgent.match(/iPhone/i);
+		 var isiPod = navigator.userAgent.match(/iPod/i);
+		 var isiPad = navigator.userAgent.match(/iPad/i);
+		 // check for mobile iOS device
+		 if(isiPhone || isiPod || isiPad) {
+		 if (!bypassRedirect()) {
+		 alert("redirecting user here");
+		 // window.location = '/m';
+		|} else {
+		 alert("user bypass message is true");
+		 }
+		 } else {
+		 alert("not a mobile device");
+		 }
+		 function bypassRedirect() {
+		 return false;
+		 // this logic will be added later in Chapter 12.
+		 }
+	</script>
+
+<!-- META tags --> 	
+	<meta charset="utf-8"> 
+	<meta name="apple-mobile-web-app-capable" content="yes"> 
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> 
+	<meta name="format-detection" content="telephone=no"> 
+	<meta name="viewport" content="width=device-width"> 
+	<link rel="apple-touch-startup-image" media="(max-device-width: 480px) and not (-webkit-min-device-pixel-ratio: 2)" href="iphone.png" />
+	<link rel="apple-touch-startup-image" media="(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)"
+	href="iphone4.png" />
+	<link rel="apple-touch-startup-image" media="(max-device-width: 1024px) and (orientation: portrait)" href="ipad-portrait.png" />
+	<link rel="apple-touch-startup-image" media="(max-device-width: 1024px) and (orientation: landscape)" href="ipad-landscape.png" /> 
+
+<!-- STYLE LINKS -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="apple-touch-icon" href="/my-icon.png">
+		<link rel="apple-touch-startup-image" href="/startup-image.png"> 
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+		<style>
+			button.ui-btn {
+				width:100px;
+				vertical-align: middle;
+				margin-left: 1em;
+				background-color: #ccc;
+			}
+		</style>
+</head>
+<body>
+
+<header>
+<div data-role="header" data-position="inline"><br/>
+	<!--TODO back button-->
+</div> 
+</header>
+<section>
+<div class="banner"><img src="img/welly.jpg"/></div>
+</section>
+<nav>
+<ul>
+	 <li class="arrow"><a href="">Businesses</a></li>
+	 <li class="arrow"><a href="">Near Me</a></li>
+	 <li class="arrow"><a href="">Sales &amp; Specials</a></li>
+	 <li class="arrow"><a href="">Parking</a></li>
+	 <li class="arrow"><a href="">Game</a></li>
+	 <li class="arrow"><a href="">Audio &amp; Video</a></li>
+	 <li class="arrow"><a href="">About</a></li>
+	 <li class="arrow"><a href="">Contact</a></li>
+ </ul>
+</nav> 
+
+<footer>
+		Copyright &#169; <script>var d = new Date();document.write(d.getFullYear());</script> All Rights Reserved.
+</footer>
+</body>
+<html> 
+
+</body>
+</html>
