@@ -2,13 +2,13 @@
 ### Welcome to my Website Portfolio
 
 * Pure CSS – Portfolio Website
-This is a portfolio page I designed and developed through pure CSS and HTML.  I did not use any framework.
+http://pamcez.github.io/portfolio/home.html This is a portfolio page I designed and developed through pure CSS and HTML.  I did not use any framework.
  
 * Wordpress Website
 http://www.mariafrancescatehuki.wordpress.com This is a proposal I made for Maria Francesca, a jewellery artisan in Wellington, New Zealand.   Her existing website which I developed and currently the website administrator is located at http://www.mariafrancesca.co.nz.  Her live website I developed in wordpress.org and not wordpress.com.
 
 * Foundation Framework Website
-goldway.international/index.html This is my school project I designed and developed using Foundation Framework.
+http://pamcez.github.io/goldway.international/index.html This is my school project I designed and developed using Foundation Framework.
 
 * E-Commerce Website
 Scooter and Pearl is an E-commerce website which I developed using PHP.  I edited all the photos, collaborated the design with the owner.  I changed the HTML and CSS of the existing template in Shopify to incorporate the design agreed upon.
