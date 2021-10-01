@@ -1,0 +1,13 @@
+.carousel-item img
+  {
+    width:90%;
+    margin: auto;
+    height: 700px;
+  }
+  .carousel-caption
+  {
+    background-color: grey;
+    opacity:70%;
+    margin:0;
+  }
+a.btn { width: 250px;}
