@@ -1,0 +1,142 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body { font-size: 14px; line-height: 1; font-family: Arial, Tahoma, sans-serif; }
+
+h1 { font-size: 1.5em;}
+h2 {  font-size: 1.3em; }
+
+.area { 
+	font-size: 1.5em; 
+	color: #fff;
+	text-decoration: none;
+}
+/** iphone **/
+@media screen and (-webkit-max-device-pixel-ratio : 1.5) and (max-device-width: 480px){
+	body { 
+		width:100%; 
+		font-size: 75%;
+		height: 100%;
+	}
+}
+/** iphone 4 **/
+@media screen and (-webkit-min-device-pixel-ratio:2) {
+	body { 
+		width:100%; 
+		font-size: 75%;
+		height: 100%;
+	}
+}
+/** ipad **/
+@media all and (min--width: 768px){
+	body {
+		width: 400px;
+	}
+	img { 
+		margin: 0;
+		width: 100%;
+	}
+} 
+
+/*HEADER STYLE*/
+
+header {
+ text-align: center;
+ height: 75px;
+ background-color: #555;
+}
+header h1 {
+ color: #fff;
+ font-size: 1em;
+} 
+
+
+.banner img { 
+	margin: 0;
+	width: 100%;
+}
+/*NAVIGATION LIST*/
+/*nav {
+ height: 250px;
+ overflow-y: auto;
+ -webkit-overflow-scrolling:touch;
+} */
+nav ul { // remove list style
+ margin:10px;
+ padding:0;
+}
+nav ul li { list-style: none;}
+nav ul li a { // give some color and a border
+ background-color:#fff;
+ border: 1px solid #999;
+ color:#222;
+ display:block;
+ font-weight:bold;
+ margin-bottom:-1px;
+ padding: 12px 10px;
+ text-decoration:none;
+}
+nav ul.num2 li:first-child a { // create a rounded border on top
+ border-top-left-radius:8px;
+ border-top-right-radius:8px;
+}
+nav ul.num2 li:last-child a { // create a rounded border on the bottom
+ border-bottom-left-radius:8px; 
+  border-bottom-right-radius:8px;
+} 
+li.arrow a {
+ background-image: url(chevron_36.png);
+ background-size:22px;
+ background-position: right center;
+ background-position-x: 98%;
+ background-position-y: 50%;
+ background-repeat: no-repeat;
+ background-repeat-x: no-repeat;
+ background-repeat-y: no-repeat;
+} 
+
+/*BUTTON*/
+
+.button,.back {
+ font-size:16px;
+ line-height:18px;
+ text-shadow: #333 1px 1px 2px;
+ color:white;
+ font-weight:bold;
+ text-decoration:none;
+ border-width:10px;
+ padding:5px 10px;
+} 
+
+.button {
+ -webkit-border-image: url("round.png") 0 14 0 14 stretch;
+}
+.back {
+ height:30px;
+ line-height:14px;
+ font-weight:normal;
+ font-size:12px;
+ padding:5px;
+ color:#fff;
+ -webkit-border-image: url("back.png") 0 14 0 14 stretch;
+} 
+
+/*FOOTER*/
+footer {
+	 position: absolute;
+	 top: 300;
+/*	 border: 1px solid red;*/
+	 width: 300px;
+	 margin: 10px;
+	 height: 40px;
+} 

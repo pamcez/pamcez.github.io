@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="https://resources/demos/style.css">
+    <title>Queenscliffe Accomodation</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
+
+
+
+    <!-- Bootstrap core CSS -->
+<link href="dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="styles/default.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+      $( "#datepicker" ).datepicker({
+        numberOfMonths: 1,
+        showButtonPanel: true
+      });
+    } );
+    $( function() {
+      $( "#datepicker2" ).datepicker({
+        numberOfMonths: 1,
+        showButtonPanel: true
+      });
+    } );
+    </script>
+  </head>
+  <body>
+
+<header>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">About</h4>
+          <p class="text-muted">Right on the coast of Central Queenscliffe sits this newly renovated three bedroom home with sweeping 360 degree views of pure paradise!</p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-white">Contact</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Follow on Twitter</a></li>
+            <li><a href="#" class="text-white">Like on Facebook</a></li>
+            <li><a href="#" class="text-white">Email me</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+        <strong>D'Queenscliffe</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+<div>
+  <video width="100%" height="85%" controls>
+    <source src="img/destination.mp4" type="video/mp4">
+  </video>
+</div>
+<section>
+<div class="text-center row py-lg-5">
+  <h1 class="fw-light">Welcome to D'Queenscliffe</h1>
+  <p class="lead text-muted">The heritage and cultural centre of the West Coast</p>
+  <form class="form-inline">
+  <label for="checkin" class="mb-2 mr-sm-2">Check-in :</label><input class="me-2" type="text" id="datepicker"> <label for="checkout" class="mb-2 mr-sm-2">Check-out :</label><input class=" me-2" type="text" id="datepicker2">
+  <input class="ui-button ui-widget ui-corner-all btn btn-primary my-2" type="submit" value="Check Availability">
+</form>
+</div>
+<div>
+</div>
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <h3>Highlights</h3>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card">
+            <img src="img/image2.png" class="img-thumbnail" width="100%" height="325px"/>
+            <div class="card-body">
+              <p class="card-text"> Elegant 3 bedrooms with 3 double beds, 2 bathrooms and 1 swimming pool outside</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View Details</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/image3.png" class="img-thumbnail" width="100%" height="100%"/>
+            <div class="card-body">
+              <p class="card-text">WIFI available, Free Parking, room heating, air-conditoning, and Breakfast included</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View Details</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+              <img src="img/image5.png" class="img-thumbnail" width="100%" height="325px"/>
+            <div class="card-body">
+              <p class="card-text">Lovely kitchen with utensils, coffee maker, dishwasher, washing machine, TV, and hair dryer</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View Details</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+          </div>
+          </div>
+        </div>
+        <div class="container col-xxl-8 px-4 py-5">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/2sk_NMCF5Zk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-6">
+              <h2 class="fw-bold lh-1 mb-3">Central Location</h2>
+              <p class="lead">Right on the coast of Central Queenscliffe sits this newly renovated three bedroom home with sweeping 360 degree views of pure paradise! Take a stroll down the beach, or kick back and relax in our massive heated outdoor pool or spa. We provide all the amenities you need. You will also find restaurants, bars, supermarkets and cafes just walking distance. This is perfect for those wanting a luxury escape!</p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center row py-lg-5 bg-light">
+          <h4 class="text-center row-cols-sm-4">  Terms and Policy: </h4>
+            <p class="text-center row-cols-sm-4">As we have live channel links to Airbnb, Homeaway/stays and Booking.com we are unable to prioritise our repeat guests, it’s first in best dressed!</br>
+            Cancellation: Free if cancelled at least one week prior to stay. Receive a 50% refund after that. No refund 48 hours before date of stay.
+          </p>
+        </div>
+
+<div class="container col-xxl-8 px-4 py-5">
+  <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+    <div class="col-10 col-sm-8 col-lg-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2736.753533309965!2d144.64369205069855!3d-38.27069246799933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad4371b3b24f0d3%3A0x59f3eccf26bbf79c!2sFraser%20St%2C%20Queenscliff%20VIC%203225%2C%20Australia!5e1!3m2!1sen!2snz!4v1631862890734!5m2!1sen!2snz" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    <div class="col-lg-6">
+      <h3 class="fw-bold lh-1 mb-3">Things to do</h3>
+      <p class="lead">Location: Fraser Street Queenscliff Vic 3225</p>
+      <ul>
+        <li> Events</li>
+        <li> Food and Wine</li>
+        <li> Shopping</li>
+        <li> Nature and Wildlife</li>
+      </ul>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+      </div>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+
+
+<div class="container">
+<footer class="py-5">
+  <div class="row">
+    <div class="col-2">
+      <h5>Section</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacy Policy</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+      </ul>
+    </div>
+
+    <div class="col-2">
+
+    </div>
+
+    <div class="col-2">
+      <h5>Contact Details</h5>
+      <p>Sally Sharp (00)1234 1122</br>
+        Call Monday to Friday 9am-4pm
+      </p>
+    </div>
+
+    <div class="col-4 offset-1">
+      <form>
+        <h5>Subscribe to our newsletter</h5>
+        <p>Monthly digest of whats new and exciting from us.</p>
+        <div class="d-flex w-100 gap-2">
+          <label for="newsletter1" class="visually-hidden">Email address</label>
+          <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+          <button class="btn btn-primary" type="button">Subscribe</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="d-flex justify-content-between py-4 my-4 border-top">
+    <p>&copy; 2021 Company, Inc. All rights reserved.</p>
+    <ul class="list-unstyled d-flex">
+      <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+      <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+      <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+    </ul>
+  </div>
+
+</footer>
+
+
+    <script src="dist/js/bootstrap.bundle.min.js"></script>
+
+
+  </body>
+</html>

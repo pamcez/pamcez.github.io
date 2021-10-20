@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Goldway International Hotels | Home</title>
+	<!-- Foundation framework -->
+	<!-- META TAGS -->
+	<meta charrset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">		
+	<!-- STYLES -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.css">
+  <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	<!-- SCRIPTS -->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/foundation.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+	<script>
+		$(document).ready(function() {
+		    $(document).foundation();
+		})
+	</script>
+
+</head>
+<body>
+
+<!-- NAVIGATION -->
+
+<nav class="top-bar" data-topbar role="navigation">
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="index.html">Goldway</a></h1>
+    </li>
+    <li class="has-form">
+      <div class="row collapse">
+        <div class="large-8 show-for-large-up columns">
+        </div>
+        <ul class="inline-list">     
+          <a href="#" class="search-icon">
+            <li class="search-field"><i class="fi-magnifying-glass"></i></li></a>
+              <form>
+                <div class="row collapse">
+                  <div class="small-12 columns">
+                    <input type="text" class="dream-search" placeholder="Search">
+                  </div>
+                </div>
+              </form>
+        </ul>
+      </div>
+    </li>
+     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li><a href="index.html">Home</a></li>
+      <li class="has-dropdown">
+        <a href="#">Menu</a>
+        <ul class="dropdown">
+          <li><a href="rooms.html">Accomodation</a></li>
+          <li><a href="#">Facilities</a></li>
+          <li><a href="#">Locations</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <!-- Left Nav Section -->
+    <ul class="left">
+      
+    </ul>
+  </section>
+</nav>
+
+<section class="hero">
+	 <div class="row intro">
+      <div class="small-centered medium-uncentered medium-6 large-7 columns">
+          
+      </div>
+  </div>
+</section>
+
+<div class="row margin-top">
+  <div class="small-12 columns">
+    <form method="post" action="#" id="signinForm">
+      <div class="row">
+        <div class="medium-3 columns">
+          <label>Check-in</label>
+          <input id="fields" type="date" name="checkIn" max="2017-01-31" required>
+        </div>
+
+        <div class="medium-3 columns">
+          <label>Check-out</label>
+          <input id="fields" type="date" name="checkOut" max="2016-12-31" required>
+        </div>
+        <div class="medium-3 columns">
+          <label> Guests</label>
+          <select name="guests" id="fields">
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+            <option value="4">Four</option>
+          </select>
+        </div>
+    </form>
+      <div class="medium-3 columns">
+          <button type="button" class="button gold" data-reveal-id="calModal">Check</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- The Modal Content -->
+<div id="calModal" class="reveal-modal" data-reveal>
+    <a href="book.html" class="button success text-center" target="blank">Book Now</a>
+  <iframe class="show-for-large-up" src="http://localendar.com/public/cepam?style=M4&show_past=N" height=800 width=700 marginheight=0 marginwidth=0 scrolling=no frameborder=0 border=0></iframe>
+  <br/>
+
+  <a class="close-reveal-modal">&times;</a>
+</div>  
+<hr/>
+
+<div class="row">
+  <div class="medium-6 large-8 columns">
+  	<h3 class="text-gold">Upscale Ambiance</h3>	
+	<p class="small-text-justify">Goldway International Hotels are located in the heart of cities worldwide. With a calming, upscale ambiance and access to theaters, brilliant shopping, midtown business and fine dining, Goldway is the best choice for both comfort and convenience whether travelling for business or leisure.</p>
+  </div>
+  <div class="medium-6 large-4 columns">
+  	<h3 class="text-gold">Latest News</h3>	
+  	<p class="small-text-justify">Goldway International has just been nominated for the World Luxury Hotel Awards. This is the fourth year running that Goldway has been nominated.</p>
+
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="medium-4 columns">
+  	<a href="images/penthouse-sml.jpg" class="th radius">
+	  <img src="images/penthouse-sml.jpg" alt="penthouse">
+	</a>
+    <h4 class="text-gold">Luxury Defined</h4>
+    <p class="small-text-justify">Revel in the skyline from one of our spacious guest rooms and suites, luxuriously appointed with custom bedding and advanced technology. <br/>
+	Experience our distinctive service, fitness center, business center and concierge staff ready to help you with the hottest tickets, directions and other arrangements.</p>	
+  </div>
+  <div class="medium-4 columns">
+    <a href="images/conference-table.jpg" class="th radius">
+	  <img src="images/conference-table.jpg" alt="conference">
+	</a>
+    <h4 class="text-gold">Exquisite Functions</h4>
+    <p class="small-text-justify">Goldway International Hotels offers newly renovated meeting spaces and are the only hotels in world with an on-site meeting facilities approved by the International Association of Conference Centers (IACC). <br/>
+	Centrally located near midtown business, our versatile and exquisite functions span seven floors.</p>
+  </div>
+  <div class="medium-4 columns">
+  	<a href="images/restaurant-sml.jpg" class="th radius">
+	  <img src="images/restaurant-sml.jpg" alt="restaurant">
+	</a>
+    <h4 class="text-gold">Contemporary Cuisine</h4>
+    <p class="small-text-justify">The elegant Restaurant Charlotte serves contemporary European cuisine all day long and is ideal for pre or post show dining. <br/>
+	With its attentive staff, warm decor and soaring windows, its the perfect spot for breakfast, lunch or dinner. You can also take advantage of our delectable In-room Dining.</p>
+  </div>
+</div>
+
+
+<footer class="footer">
+  <div class="row">
+    <div class="small-12 medium-6 large-5 columns">
+      <p class="logo small-text-left">GOLDWAY INTERNATIONAL HOTELS</p> 
+      <p class="footer-links small-text-left">
+        <a href="index.html">Home</a>
+        <a href="rooms.html">Accomodation</a>
+        <a href="#">Facilities</a>
+        <a href="#">Locations</a>
+      </p>
+      <p class="copywrite">Copywrite &copy; 2015</p>
+    </div>
+    <div class="small-12 medium-6 large-4 columns">
+      <ul class="contact">
+        <li><p class="small-text-left"><i class="fi-marker"></i>Lambton Quay, Wellington, New Zealand</p></li>
+        <li><p class="small-text-left"><i class="fi-telephone"></i>+1-656-453-9966</p></li>
+        <li><p class="small-text-left"><i class="fi-mail"></i>contact@goldway.com</p></li>
+      </ul>
+    </div>
+    <div class="small-12 medium-12 large-3 columns">
+      <p class="about small-text-left">Follow us</p>
+      <ul class="inline-list social">
+        <a href="#"><i class="fi-social-facebook"></i></a>
+        <a href="#"><i class="fi-social-twitter"></i></a>
+        <a href="#"><i class="fi-social-instagram"></i></a>
+        <a href="#"><i class="fi-social-pinterest"></i></a>
+      </ul>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
