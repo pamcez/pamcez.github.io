@@ -16,7 +16,7 @@ Foundation Framework
 
 ##### School Project: Holiday Home Website 
 using Bootstrap 5
-<a href="https://github.com/pamcez/pamcez.github.io/blob/master/holiday/index.html"< Holiday Home </a>
+<a href="https://github.com/pamcez/pamcez.github.io/blob/master/holiday/index.html"> Holiday Home </a>
 
 ##### Personal Project: Salon Website
 
