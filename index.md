@@ -12,12 +12,10 @@ title: Home
 
 ##### School Project: Hotel Website using
 Foundation Framework
-
+<a href="https://pamcez.github.io/pamcez/hotel/goldway.international/index.html"> Goldway hotel </a>
 
 ##### School Project: Holiday Home Website 
 using Bootstrap 5
-
-
 
 ##### Personal Project: Salon Website
 
