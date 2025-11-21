@@ -8,6 +8,6 @@ title: About
 
 ## Let's Create Together
 
-Get in touch for a free consultation  and take the next steps to make something remarkable! Flick a message to webndesignz@gmail.com
+Contact me for a free consultation and let’s create something amazing together! Follow and message me on my Facebook page <a href="https://www.facebook.com/webndesignz/"> Web Design NZ </a>. 
 
 
